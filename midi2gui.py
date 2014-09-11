@@ -1,8 +1,8 @@
 import logging
 import sys
 import threading
-from mididings import *
-from mididings.extra import *
+from mididings import run, Process
+#from mididings.extra import *
 from subprocess import Popen, PIPE
 from time import sleep
 
